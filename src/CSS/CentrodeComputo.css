@@ -1,0 +1,194 @@
+.fondo-div-cursos-CC{
+    background: linear-gradient(135deg, #1ed6bb, #00d4bd, #00d0c4, #00c9cf, #00bfdf, #00b3ef, #00a5fd, #0095ff, #0084ff, #0075fe, #0069f7, #1464f4);
+    height: 500px;
+    border-radius: 10px;
+    -webkit-clip-path: polygon(100% 0, 100% 23%, 0 62%, 0 0);
+    clip-path: polygon(100% 0, 100% 23%, 0 62%, 0 0);
+}
+@media (min-width:110px)  { /* Medida para Jiophone */ 
+    .responsive-cards-flex-Computo{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-top: -170%;
+    }
+    .responsive-cards-flex-back-Computo{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-top: -450px;
+    }
+    .responsive-text-card-Computo{
+        font-size: 14px;
+        
+    }
+    .responsive-div-text-card-Computo{
+        padding: 1.25rem;
+    }
+    .responsive-width-div-p-Centro{
+        width: 100%;
+    }
+
+}
+@media (min-width:260px)  { /* smartphones, iPhone 4 en Horizontal, Medida en horizontal 480x320 para Celulares (Android)  */ 
+    
+    .responsive-cards-flex-Computo{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-top: -130%;
+    }
+
+    .responsive-cards-flex-back-Computo{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-top: -450px; 
+    }
+    .responsive-text-card-Computo{
+        font-size: 14px;
+        
+    }
+    .responsive-div-text-card-Computo{
+        padding: 1.25rem;
+    }
+    .responsive-width-div-p-Centro{
+        width: 100%;
+    }
+}
+@media (min-width:390px)  { /* smartphones, iPhone en vertical, Medida en horizontal  480x320 para celulares (Android) */ 
+
+    .responsive-cards-flex-Computo{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-top: -98%
+    }
+    .responsive-cards-flex-back-Computo{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-top: -450px;
+    }
+    .responsive-text-card-Computo{
+        font-size: 15px;
+    }
+    .responsive-width-div-p-Centro{
+        width: 100%;
+    }
+}
+@media (min-width:480px)  { /* smartphones, Celulares Android , iPhone en horizontal */ 
+    .responsive-cards-flex-Computo{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-top: -58%
+    }
+    .responsive-cards-flex-back-Computo{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-top: -450px;
+        
+    }
+    .responsive-text-card-Computo{
+        font-size: 18px;
+    }
+    .responsive-width-div-p-Centro{
+        width: 100%;
+    }
+
+}
+@media (min-width:600px)  { /*  tablets en vertical, iPad en vertical, e-readers (Nook/Kindle), medida en horizontal 800x480 para celulares (Android) */
+
+    .responsive-cards-flex-Computo{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-top: -47%;
+    }
+    .responsive-cards-flex-back-Computo{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-top: -450px;  
+    }
+    .responsive-text-card-Computo{
+        font-size: 25px;
+    }
+    .responsive-width-div-p-Centro{
+        width: 100%;
+    }
+}
+@media (min-width:801px)  { /* tablet, iPad en horizontal, laptops y escritorio */ 
+    .responsive-cards-flex-Computo{
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        margin-top: -46%;
+    }
+
+    .responsive-cards-flex-back-Computo{
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        margin-top: -156px;
+       
+    }
+    .responsive-div-text-card-Computo{
+        padding: 5rem;
+    }
+    .responsive-width-div-p-Centro{
+        width: 100%;
+    }
+}
+@media (min-width:1025px) { /* modo horizontal para tablets, laptops y Escritorio */ 
+
+    .responsive-cards-flex-Computo{
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        margin-top: -25%;
+      
+       
+    }
+    .responsive-cards-flex-back-Computo{
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        margin-top: -156px;
+
+       
+    }
+    .responsive-width-div-p-Centro{
+        width: 40%;
+    }
+    
+
+}
+@media (min-width:1281px) { /* Para laptops y Escritorios */ 
+
+    .responsive-cards-flex-Computo{
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        margin-top: -25%;
+        margin-left: 11rem;
+        margin-right: 11rem;
+        
+       
+    }
+    .responsive-cards-flex-back-Computo{
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        margin-top: -156px;
+        margin-left: 11rem;
+        margin-right: 11rem;
+       
+    }
+    .responsive-width-div-p-Centro{
+        width: 40%;
+    }
+
+}

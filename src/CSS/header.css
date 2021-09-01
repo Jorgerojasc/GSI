@@ -1,0 +1,222 @@
+/*ESTILOS DEL MENU DEL INDEX*/
+
+/*Nav completo*/
+.main-nav{
+	width: 100%;
+	margin: auto;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.logo img{
+	margin: 10px;
+	height: 70px;
+	vertical-align: top;
+}
+
+/*Span del logo*/
+.nav-bar{
+	background: #FAF5F3;
+	padding: 20px;
+	display: block;
+	color: #3F3E3E;
+	cursor: pointer;
+	font-size: 1.5em;
+	width: 100%;
+}
+/*li y ul del menu*/
+.menu, .submenu{
+	list-style: none;
+	padding: 0;
+	margin: 0;
+
+}
+
+.menu{
+	/*background: #555;*/
+	width: 100%;
+	margin-left: -200%; /*Menu responsive*/
+	transition: all 0.5s;
+}
+/* a */
+.menu_link{
+	display: block;
+	padding: 8px;
+	color: #555;
+	font-size: 1.2em;
+	text-decoration: none;
+}
+
+.menu_link:hover{
+	background: rgba(242, 242, 242, 0.8);
+}
+
+.submenu .menu_link:hover{
+	background: rgba(242, 242, 242, 1);;
+}
+
+.submenu{
+	height: 0px;
+	overflow: hidden;
+	transition: all 0.3s;
+
+}
+.submenu-hidden{
+	height: 0px;
+	overflow: hidden;
+	transition: all 0.3s;
+}
+.despliega-submenu{
+	height: auto;
+	overflow-y: auto;
+	transition: all 0.3s;
+	
+}
+.submenu .menu_link{
+	background: white;
+	padding-left: 40px; 
+	
+}
+
+
+@media (min-width:210px)  { /* Medida para Jiophone */ 
+	.responsive-logos-head{
+		width: 35px;
+		height: 25px;
+		margin-left: 5px;
+	}
+	.responsive-color-div{
+		background-color: #111827;
+	}
+	.responsive-text-color{
+		color: white;
+	}
+	.responsive-text-menu{
+		font-size: 11px;
+	}
+	.responsive-button-menu{
+		width: 35px;
+		height: 25px;
+	}
+}
+@media (min-width:260px)  { /* smartphones, iPhone 4 en Horizontal, Medida en horizontal 480x320 para Celulares (Android)  */ 
+	.responsive-logos-head{
+		width: 60px;
+		height: 45px;
+		margin-left: 5px;
+	}
+	.responsive-color-div{
+		background-color: #111827;
+	}
+	.responsive-text-color{
+		color: white;
+	}
+	.responsive-text-menu{
+		font-size: 13px;
+	}
+	.responsive-button-menu{
+		width: 35px;
+		height: 25px;
+	}
+}
+@media (min-width:390px)  { /* smartphones, iPhone en vertical, Medida en horizontal  480x320 para celulares (Android) */ 
+	.responsive-logos-head{
+		width: auto;
+		height: auto;
+
+	}
+	.responsive-color-div{
+		background-color: #111827;
+	}
+	.responsive-text-color{
+		color: white;
+	}
+	.responsive-text-menu{
+		font-size: 15px;
+	}
+	.responsive-button-menu{
+		width: 35px;
+		height: 25px;
+	}
+
+}
+@media (min-width:480px)  { /* smartphones, Celulares Android , iPhone en horizontal */ 
+	.responsive-logos-head{
+		width: auto;
+		height: auto;
+
+	}
+	.responsive-color-div{
+		background-color: #111827;
+	}
+	.responsive-text-color{
+		color: white;
+	}
+	.responsive-text-menu{
+		font-size: 17px;
+	}
+	.responsive-button-menu{
+		width: 35px;
+		height: 35px;
+	}
+
+
+}
+@media (min-width:600px)  { /*  tablets en vertical, iPad en vertical, e-readers (Nook/Kindle), medida en horizontal 800x480 para celulares (Android) */
+	.responsive-logos-head{
+		width: auto;
+		height: auto;
+
+	}
+	.responsive-color-div{
+		background-color: #111827;
+	}
+	.responsive-text-color{
+		color: white;
+	}
+
+}
+@media (min-width:801px)  { /* tablet, iPad en horizontal, laptops y escritorio */ 
+	.responsive-logos-head{
+		width: auto;
+		height: auto;
+
+	}
+	.responsive-color-div{
+		background-color: #111827;
+	}
+	.responsive-text-color{
+		color: white;
+	}
+
+}
+
+@media (min-width:1024px) { /* modo horizontal para tablets, laptops y Escritorio */ 
+	.responsive-logos-head{
+		width: auto;
+		height: auto;
+
+	}
+	.submenu{
+		position: absolute;
+		top: 115px;
+		width: 250px;
+		overflow: visible;
+		z-index: 1000;
+		opacity: 0;
+		visibility: hidden;
+	
+	}
+	.container-submenu:hover .submenu{
+		opacity: 1;
+		visibility: visible;
+	
+	}
+	.responsive-color-div{
+		background-color: white;
+	}
+	.responsive-text-color{
+		color: black;
+	}
+}

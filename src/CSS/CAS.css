@@ -1,0 +1,373 @@
+
+.color-div-CAS-P{
+    background: linear-gradient(90deg, #1ed6bb, #1bdcd9, #18cbe2, #15b4e9, #149bed, #1480f1, #1464f4);
+    -webkit-clip-path: polygon(100% 0, 100% 26%, 0 44%, 0 0);
+    clip-path: polygon(100% 0, 100% 26%, 0 44%, 0 0);
+    height: 400px;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+
+
+}
+.responsive-container-divs-CAS-P{
+    align-items: center;
+    justify-content: center;
+ 
+}
+/* .responsive-div-card-perfil-CAS{
+    width: 40%;
+    margin-left: 20%;
+} */
+.color-div-CAS-P img{
+    margin-left: 25%;
+    margin-top: 6%;
+}
+
+
+@media (min-width:110px)  { /* Medida para Jiophone */ 
+
+    .responsive-div-text-CAS-P{
+        flex-direction: column;
+    }
+    .responsive-div-card-perfil-CAS{
+        width: 90%;
+        margin-left: 0%;
+        margin-top: 5%;
+    }
+    .responsive-name-perfil-CAS-P{
+        font-size: 9px;
+    }
+    .responsive-contact-perfil-CAS-P{
+        font-size:8px ;
+    }
+    .responsive-width-p-CAS-P{
+        width: 90%;
+
+    }
+    .color-line-gradient-CAS-P{
+        height: 300px;
+        width:200px;
+        margin-left: -150px;
+        margin-top:288px;
+        background: rgb(148,187,233);
+        background: radial-gradient(circle, rgba(148,187,233,1) 1%, rgba(151,233,225,1) 85%);
+        /* clip-path: polygon(97% 22%, 94% 46%, 4% 88%, 6% 64%); */
+        -webkit-clip-path: polygon(100% 0, 100% 16%, 0 38%, 1% 19%);
+        clip-path: polygon(100% 0, 100% 16%, 0 38%, 1% 19%);
+    
+    
+    
+    }
+    
+    .color-line-gradient-CAS-P-2 {
+        height: 330px;
+        width:230px;
+        margin-left: -160px;
+        margin-top:345px;
+        background: rgb(170, 177, 183);
+        -webkit-clip-path: polygon(100% 0, 100% 21%, 0 43%, 1% 19%);
+        clip-path: polygon(100% 0, 100% 21%, 0 43%, 1% 19%);
+    }
+}
+@media (min-width:260px)  { /* smartphones, iPhone 4 en Horizontal, Medida en horizontal 480x320 para Celulares (Android)  */ 
+    .responsive-div-text-CAS-P{
+        flex-direction: column;
+    }
+    .responsive-div-card-perfil-CAS{
+        width: 90%;
+        margin-left: 0%;
+        margin-top: 5%;
+    }
+    .responsive-name-perfil-CAS-P{
+        font-size: 12px;
+    }
+    .responsive-contact-perfil-CAS-P{
+        font-size:10px ;
+    }
+    .color-line-gradient-CAS-P{
+        height: 300px;
+        width:200px;
+        margin-left: -150px;
+        margin-top:288px;
+        background: rgb(148,187,233);
+        background: radial-gradient(circle, rgba(148,187,233,1) 1%, rgba(151,233,225,1) 85%);
+        /* clip-path: polygon(97% 22%, 94% 46%, 4% 88%, 6% 64%); */
+        -webkit-clip-path: polygon(100% 0, 100% 16%, 0 38%, 1% 19%);
+        clip-path: polygon(100% 0, 100% 16%, 0 38%, 1% 19%);
+    
+    
+    
+    }
+    
+    .color-line-gradient-CAS-P-2 {
+        height: 330px;
+        width:230px;
+        margin-left: -160px;
+        margin-top:345px;
+        background: rgb(170, 177, 183);
+        -webkit-clip-path: polygon(100% 0, 100% 21%, 0 43%, 1% 19%);
+        clip-path: polygon(100% 0, 100% 21%, 0 43%, 1% 19%);
+    }
+}
+@media (min-width:390px)  { /* smartphones, iPhone en vertical, Medida en horizontal  480x320 para celulares (Android) */ 
+    .responsive-div-text-CAS-P{
+        flex-direction: column;
+    }
+    .responsive-div-card-perfil-CAS{
+        width: 70%;
+        margin-left: 0%;
+        margin-top: 5%;
+    }
+    .responsive-name-perfil-CAS-P{
+        font-size: 14px;
+    }
+    .responsive-contact-perfil-CAS-P{
+        font-size:10px ;
+    }
+    .color-line-gradient-CAS-P{
+        height: 300px;
+        width:250px;
+        margin-left: -180px;
+        margin-top:288px;
+        background: rgb(148,187,233);
+        background: radial-gradient(circle, rgba(148,187,233,1) 1%, rgba(151,233,225,1) 85%);
+        /* clip-path: polygon(97% 22%, 94% 46%, 4% 88%, 6% 64%); */
+        -webkit-clip-path: polygon(100% 0, 100% 16%, 0 38%, 1% 19%);
+        clip-path: polygon(100% 0, 100% 16%, 0 38%, 1% 19%);
+    
+    
+    
+    }
+    
+    .color-line-gradient-CAS-P-2 {
+        height: 330px;
+        width:270px;
+        margin-left: -190px;
+        margin-top:345px;
+        background: rgb(170, 177, 183);
+        -webkit-clip-path: polygon(100% 0, 100% 21%, 0 43%, 1% 19%);
+        clip-path: polygon(100% 0, 100% 21%, 0 43%, 1% 19%);
+    }
+
+}
+@media (min-width:480px)  { /* smartphones, Celulares Android , iPhone en horizontal */ 
+
+    .responsive-div-text-CAS-P{
+        flex-direction: column;
+    }
+    .responsive-div-card-perfil-CAS{
+        width: 60%;
+        margin-left: 0%;
+        margin-top: 5%;
+    }
+    .responsive-width-p-CAS-P{
+        width: 100%;
+
+    }
+    .color-line-gradient-CAS-P{
+        height: 300px;
+        width:250px;
+        margin-left: -180px;
+        margin-top:288px;
+        background: rgb(148,187,233);
+        background: radial-gradient(circle, rgba(148,187,233,1) 1%, rgba(151,233,225,1) 85%);
+        /* clip-path: polygon(97% 22%, 94% 46%, 4% 88%, 6% 64%); */
+        -webkit-clip-path: polygon(100% 0, 100% 16%, 0 38%, 1% 19%);
+        clip-path: polygon(100% 0, 100% 16%, 0 38%, 1% 19%);
+    
+    
+    
+    }
+    
+    .color-line-gradient-CAS-P-2 {
+        height: 330px;
+        width:270px;
+        margin-left: -200px;
+        margin-top:350px;
+        background: rgb(170, 177, 183);
+        -webkit-clip-path: polygon(100% 0, 100% 21%, 0 43%, 1% 19%);
+        clip-path: polygon(100% 0, 100% 21%, 0 43%, 1% 19%);
+    }
+}
+@media (min-width:600px)  { /*  tablets en vertical, iPad en vertical, e-readers (Nook/Kindle), medida en horizontal 800x480 para celulares (Android) */
+
+    .responsive-div-text-CAS-P{
+        flex-direction: column;
+    }
+    .responsive-div-card-perfil-CAS{
+        width: 40%;
+        margin-left: 0%;
+        margin-top: 5%;
+    }
+    .responsive-name-perfil-CAS-P{
+        font-size: 14px;
+    }
+    .responsive-contact-perfil-CAS-P{
+        font-size:10px ;
+    }
+    .responsive-width-p-CAS-P{
+        width: 100%;
+
+    }
+    .color-line-gradient-CAS-P{
+        height: 300px;
+        width:250px;
+        margin-left: -150px;
+        margin-top:288px;
+        background: rgb(148,187,233);
+        background: radial-gradient(circle, rgba(148,187,233,1) 1%, rgba(151,233,225,1) 85%);
+        /* clip-path: polygon(97% 22%, 94% 46%, 4% 88%, 6% 64%); */
+        -webkit-clip-path: polygon(100% 0, 100% 16%, 0 38%, 1% 19%);
+        clip-path: polygon(100% 0, 100% 16%, 0 38%, 1% 19%);
+    
+    
+    
+    }
+    
+    .color-line-gradient-CAS-P-2 {
+        height: 330px;
+        width:270px;
+        margin-left: -170px;
+        margin-top:355px;
+        background: rgb(170, 177, 183);
+        -webkit-clip-path: polygon(100% 0, 100% 21%, 0 43%, 1% 19%);
+        clip-path: polygon(100% 0, 100% 21%, 0 43%, 1% 19%);
+    }
+
+
+}
+@media (min-width:801px)  { /* tablet, iPad en horizontal, laptops y escritorio */ 
+    .responsive-div-text-CAS-P{
+        flex-direction: row;
+    }
+    .responsive-div-card-perfil-CAS{
+        width: 60%;
+        margin-left: 15%;
+        margin-top: 0%;
+    }
+    .responsive-name-perfil-CAS-P{
+        font-size: 20px;
+    }
+    .responsive-contact-perfil-CAS-P{
+        font-size:13px ;
+    }
+    .color-line-gradient-CAS-P{
+        height: 300px;
+        width:280px;
+        margin-left: -150px;
+        margin-top:265px;
+        background: rgb(148,187,233);
+        background: radial-gradient(circle, rgba(148,187,233,1) 1%, rgba(151,233,225,1) 85%);
+        /* clip-path: polygon(97% 22%, 94% 46%, 4% 88%, 6% 64%); */
+        -webkit-clip-path: polygon(100% 0, 100% 16%, 0 38%, 1% 19%);
+        clip-path: polygon(100% 0, 100% 16%, 0 38%, 1% 19%);
+    
+    
+    
+    }
+    
+    .color-line-gradient-CAS-P-2 {
+        height: 330px;
+        width:300px;
+        margin-left: -170px;
+        margin-top:325px;
+        background: rgb(170, 177, 183);
+        -webkit-clip-path: polygon(100% 0, 100% 21%, 0 43%, 1% 19%);
+        clip-path: polygon(100% 0, 100% 21%, 0 43%, 1% 19%);
+    }
+    .responsive-width-p-CAS-P{
+        width: 50%;
+
+    }
+}
+@media (min-width:1025px) { /* modo horizontal para tablets, laptops y Escritorio */ 
+
+    .responsive-div-text-CAS-P{
+        flex-direction: row;
+    }
+    .responsive-div-card-perfil-CAS{
+        width: 45%;
+        margin-left: 20%;
+        margin-top: 0%;
+    }
+    .responsive-name-perfil-CAS-P{
+        font-size: 20px;
+    }
+    .responsive-contact-perfil-CAS-P{
+        font-size:13px ;
+    }
+    .color-line-gradient-CAS-P{
+        height: 300px;
+        width:300px;
+        margin-left: -115px;
+        margin-top:265px;
+        background: rgb(148,187,233);
+        background: radial-gradient(circle, rgba(148,187,233,1) 1%, rgba(151,233,225,1) 85%);
+        /* clip-path: polygon(97% 22%, 94% 46%, 4% 88%, 6% 64%); */
+        -webkit-clip-path: polygon(100% 0, 100% 16%, 0 38%, 1% 19%);
+        clip-path: polygon(100% 0, 100% 16%, 0 38%, 1% 19%);
+    
+    
+    
+    }
+    
+    .color-line-gradient-CAS-P-2 {
+        height: 330px;
+        width:340px;
+        margin-left: -140px;
+        margin-top:325px;
+        background: rgb(170, 177, 183);
+        -webkit-clip-path: polygon(100% 0, 100% 21%, 0 43%, 1% 19%);
+        clip-path: polygon(100% 0, 100% 21%, 0 43%, 1% 19%);
+    }
+    .responsive-width-p-CAS-P{
+        width: 60%;
+
+    }
+    
+
+}
+@media (min-width:1281px) { /* Para laptops y Escritorios */ 
+
+    .responsive-div-text-CAS-P{
+        flex-direction: row;
+    }
+    .responsive-div-card-perfil-CAS{
+        width: 35%;
+        margin-left: 20%;
+        margin-top: 0%;
+    }
+    .responsive-name-perfil-CAS-P{
+        font-size: 20px;
+    }
+    .responsive-contact-perfil-CAS-P{
+        font-size:13px ;
+    }
+    .color-line-gradient-CAS-P{
+        height: 300px;
+        width:300px;
+        margin-left: -115px;
+        margin-top:265px;
+        background: rgb(148,187,233);
+        background: radial-gradient(circle, rgba(148,187,233,1) 1%, rgba(151,233,225,1) 85%);
+        /* clip-path: polygon(97% 22%, 94% 46%, 4% 88%, 6% 64%); */
+        -webkit-clip-path: polygon(100% 0, 100% 16%, 0 38%, 1% 19%);
+        clip-path: polygon(100% 0, 100% 16%, 0 38%, 1% 19%);
+    
+    
+    
+    }
+    
+    .color-line-gradient-CAS-P-2 {
+        height: 330px;
+        width:340px;
+        margin-left: -140px;
+        margin-top:325px;
+        background: rgb(170, 177, 183);
+        -webkit-clip-path: polygon(100% 0, 100% 21%, 0 43%, 1% 19%);
+        clip-path: polygon(100% 0, 100% 21%, 0 43%, 1% 19%);
+    }
+    
+
+}
