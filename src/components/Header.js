@@ -5,6 +5,9 @@ import '../CSS/header.css';
 import logoUaq from '../images/Logo-UAQ.png';
 import logoDGSI from '../images/Logo-CGSI.png'
 
+
+
+
 const Header = () => {
     
     const esconderMenu = ()=>{
@@ -60,9 +63,9 @@ const Header = () => {
                         <li className="menu_item container-submenu hover:bg-gray-300 cursor-pointer"  onClick={()=>muestraSubMenu()}>
                             <a href="#" className="inline-block py-2 px-4 font-bold responsive-text-color no-underline text-xl submenu-btn hover:bg-gray-300 responsive-text-menu" >Departamentos<i className="fas fa-angle-down"></i></a>
                             <ul className="submenu submenu-hidden ">
-                                <li className="menu_item"><a href="infraestructura.html" className="menu_link">Infraestructura Física</a></li>
-                                <li className="menu_item"><a href="redIna.html" className="menu_link">Red Inalámbrica</a></li>
-                                <li className="menu_item"><a href="routing.html" className="menu_link">Switching & Routing</a></li>
+                                <li className="menu_item"><a href="/Infraestructura-fisica-y-telecomunicaciones" className="menu_link">Infraestructura Física</a></li>
+                                <li className="menu_item"><a href="/Red-Inalambrica" className="menu_link">Red Inalámbrica</a></li>
+                                <li className="menu_item"><a href="/Routing" className="menu_link">Switching & Routing</a></li>
                                 <li className="menu_item"><a href="videoconferencia.html" className="menu_link">Videoconferencia</a></li>
                                 <li className="menu_item"><a href="seguridad.html" className="menu_link">Seguridad Perimetral</a></li>
                                 <li className="menu_item"><a href="/Monitoreo" className="menu_link">Monitoreo</a></li>
@@ -70,7 +73,7 @@ const Header = () => {
                                 <li className="menu_item"><a href="/CAS" className="menu_link">CAS</a></li>
                             </ul>
                         </li>
-                        <li className="menu_item hover:bg-gray-300"><a href="contacto.html" className="inline-block py-2 px-4 font-bold responsive-text-color no-underline text-xl hover:bg-gray-300 responsive-text-menu">Acerca de nosotros</a></li>
+                        <li className="menu_item hover:bg-gray-300"><a href="/Acerca-de-nosotros" className="inline-block py-2 px-4 font-bold responsive-text-color no-underline text-xl hover:bg-gray-300 responsive-text-menu">Acerca de nosotros</a></li>
 				    </ul>
 
                 </div>

@@ -7,7 +7,9 @@ import Infraestructura from './components/InfraestructuraFisica';
 import Monitoreo from './components/MonitoreoYAdministracionServidores';
 import CentroComputo from './components/CentrodeComputo';
 import CAS from './components/CAS';
-
+import RedInalambrica from './components/RedInalambrica';
+import Routing from './components/Routing';
+import About from './components/About';
 
 function App() {
 
@@ -19,7 +21,7 @@ function App() {
                 <Inicio/>
             </Route>
            
-            <Route path="/Infraestructura">
+            <Route path="/Infraestructura-fisica-y-telecomunicaciones">
               
                 <Infraestructura/>
             </Route>
@@ -31,7 +33,16 @@ function App() {
             </Route>
             <Route path="/CAS">
                 <CAS/>
-            </Route>sz
+            </Route>
+            <Route path="/Red-Inalambrica">
+                <RedInalambrica/>
+            </Route>
+            <Route path="/Routing">
+                <Routing/>
+            </Route>
+            <Route path="/Acerca-de-nosotros">
+                <About/>
+            </Route>
         </Switch>
     </Router>
   );
