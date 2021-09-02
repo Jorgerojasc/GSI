@@ -18,6 +18,7 @@ function App() {
             <Route path="/" exact>
                 <Inicio/>
             </Route>
+           
             <Route path="/Infraestructura">
               
                 <Infraestructura/>
@@ -30,7 +31,7 @@ function App() {
             </Route>
             <Route path="/CAS">
                 <CAS/>
-            </Route>
+            </Route>sz
         </Switch>
     </Router>
   );

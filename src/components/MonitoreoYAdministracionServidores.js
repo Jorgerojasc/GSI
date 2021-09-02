@@ -184,7 +184,7 @@ const Childhtml =()=>{
 }
 
 const MonitoreoYAdministracionServidores= () =>{
-    document.title = 'CGSI | Coordinación de Monitoreo y Administración de Servidores de la RIC ';
+    document.title = 'DGSI | Coordinación de Monitoreo y Administración de Servidores de la RIC ';
     return(
 
         <Fragment>

@@ -16,6 +16,7 @@ import perfil from '../images/user.png';
 const Childhtml = () =>{
     return(
         <Fragment>
+            
             <div  className=" relative pickgradient  flex items-center w-full">
                 <div >
                     <img src={CasPage} className="img-gradient"  />
@@ -93,7 +94,7 @@ const Childhtml = () =>{
  
 }
 const CAS = () => {
-    document.title = 'CGSI | CAS ';
+    document.title = 'DGSI | CAS ';
     return ( 
         <Fragment>
             <Header/>

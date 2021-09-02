@@ -12,7 +12,7 @@ const Prueba = ()=>{
     )
 }
 const infraestructuraFisica = () => {
-    document.title = 'CGSI | Infraestructura Física';
+    document.title = 'DGSI | Infraestructura Física';
     return (  
         <Fragment>
 

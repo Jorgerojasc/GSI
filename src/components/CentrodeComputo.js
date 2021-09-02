@@ -132,7 +132,7 @@ const Childhtml =()=>{
 
 
 const CentrodeComputo = () => {
-    document.title = 'CGSI | Centro de Cómputo Académico ';
+    document.title = 'DGSI | Centro de Cómputo Académico ';
     return (
         <Fragment>
             <Header/>
